@@ -1,0 +1,18 @@
+.section-search {
+  .container {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 50px;
+    input {
+      width: 100%;
+      height: 56px;
+      border: none;
+      &::placeholder {
+        font-family: inherit;
+        font-weight: 300;
+        color: $dark-blue-2;
+      }
+    }
+  }
+}

@@ -1,5 +1,4 @@
 body {
-  color: $primary-text-color;
   font-family: $primary-font;
   font-weight: normal;
   line-height: 1.2;
@@ -19,9 +18,9 @@ body {
     margin-bottom: 14px;
   }
   h1 {
-    font-weight: bold;
-    font-size: 32px;
-    margin-bottom: 28px;
+    font-weight: 500;
+    font-size: 44px;
+    margin-bottom: 16px;
   }
   h2 {
     font-weight: bold;

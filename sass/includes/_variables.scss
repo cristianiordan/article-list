@@ -1,6 +1,6 @@
 // bootstrap related
 $container-max-widths: (
-  xl: 1400px,
+  xl: 940px,
 ) !default;
 $grid-breakpoints: (
   xs: 0,
@@ -12,20 +12,24 @@ $grid-breakpoints: (
 ) !default;
 $grid-gutter-width: 30px;
 // colors
-$ocean-blue: #fff;
-$ocean-blue-2: #000;
+$white: #fff;
+$black: #000;
 $sunny-yellow: #fff917;
 $blood-red: #980002;
 $cement: #a5a391;
 $pencil-blue: #2200ff;
-$primary-color: $ocean-blue;
+$dark-blue: #316099;
+$dark-blue-2: #1f3f68;
+$primary-color: $dark-blue-2;
 $secondary-color: $sunny-yellow;
-$primary-text-color: $pencil-blue;
-$secondary-text-color: $ocean-blue;
+$primary-text-color: $black;
+$secondary-text-color: $white;
+$header-color: $dark-blue;
 // fonts
-$primary-font: "Open Sans", sans-serif;
+$primary-font: "Roboto", sans-serif;
 $secondary-font: "MyWebFont", sans-serif;
 // sizes
+$container-header-max-width: 1133px;
 /*
 use these variables when bootstrap is not imported
 $container: 1200px;
