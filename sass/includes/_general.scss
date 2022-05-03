@@ -1,0 +1,31 @@
+a, input, textarea, button {
+  @include animated();
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+/*
+// use this container when bootstrap is not imported
+.container {
+  box-sizing: border-box;
+  max-width: $container;
+  margin: 0 auto;
+  padding: 0 15px;
+  &::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  @media(max-width: $laptop-max) {
+    max-width: $container-laptop;
+  }
+  @media(max-width: $tablet-max) {
+    max-width: $container-tablet;
+  }
+  @media(max-width: $phone-max) {
+    max-width: 100%;
+  }
+}
+*/

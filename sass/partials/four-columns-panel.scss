@@ -1,0 +1,12 @@
+.four-columns-panel {
+  background: $primary-color;
+  @include media-breakpoint-down(md) {
+    background: $secondary-color;
+  }
+  h1 {
+    color: $primary-text-color;
+    @include media-breakpoint-down(md) {
+      color: $secondary-text-color;
+    }
+  }
+}

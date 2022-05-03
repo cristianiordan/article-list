@@ -1,0 +1,13 @@
+input[disabled] {
+  opacity: 0.2;
+}
+form {
+  label {
+  }
+  input[type=text], input[type=email], input[type=number], input[type=tel], textarea, select {
+  }
+  textarea {
+  }
+  select {
+  }
+}

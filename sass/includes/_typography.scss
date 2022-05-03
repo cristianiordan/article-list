@@ -1,0 +1,82 @@
+body {
+  color: $primary-text-color;
+  font-family: $primary-font;
+  font-weight: normal;
+  line-height: 1.2;
+  h1, h2, h3, h4, h5, h6 {
+    font-family: $primary-font;
+    line-height: 1.2;
+    margin: 0;
+    padding: 0;
+    * {
+      font-size: inherit;
+      line-height: inherit;
+    }
+  }
+  p {
+    font-weight: normal;
+    font-size: 16px;
+    margin-bottom: 14px;
+  }
+  h1 {
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 28px;
+  }
+  h2 {
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 26px;
+  }
+  h3 {
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: 24px;
+  }
+  h4 {
+    font-weight: bold;
+    font-size: 26px;
+    margin-bottom: 22px;
+  }
+  h5 {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  h6 {
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 18px;
+  }
+  ul, ol {
+    padding-left: 20px;
+    font-weight: normal;
+    font-size: 16px;
+    margin-bottom: 14px;
+    li {
+      margin-bottom: 4px;
+    }
+  }
+  ul {
+    list-style: disc inside;
+  }
+  ol {
+    list-style: decimal inside;
+  }
+  a {
+    color: $primary-color;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  strong, b {
+    font-weight: bold;
+  }
+  em, i {
+    font-style: italic;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
